@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Madhesh - Design & Software Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar fixed top-0 left-0 right-0 z-50 py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-white">
+                    <a href="#home" class="flex items-center">
+                        <span class="bg-blue-500 text-white px-2 py-1 rounded mr-2">TM</span>
+                        <span>Technical Madhesh</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-white hover:text-primary">Home</a>
+                    <a href="#about" class="nav-link text-white hover:text-primary">About</a>
+                    <a href="#services" class="nav-link text-white hover:text-primary">Services</a>
+                    <a href="#portfolio" class="nav-link text-white hover:text-primary">Portfolio</a>
+                    <a href="#blog" class="nav-link text-white hover:text-primary">Blog</a>
+                    <a href="#pricing" class="nav-link text-white hover:text-primary">Pricing</a>
+                    <a href="#contact" class="nav-link text-white hover:text-primary">Contact</a>
+                    <a href="#register" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition">Register</a>
+                </div>
+                
+                <button id="mobile-menu-button" class="md:hidden text-white text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-gray-800">
+            <div class="px-2 pt-2 pb-4 space-y-2">
+                <a href="#home" class="block px-3 py-2 rounded-md text-white hover:bg-gray-700">Home</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-white hover:bg-gray-700">About</a>
+                <a href="#services" class="block px-3 py-2 rounded-md text-white hover:bg-gray-700">Services</a>
+                <a href="#portfolio" class="block px-3 py-2 rounded-md text-white hover:bg-gray-700">Portfolio</a>
+                <a href="#blog" class="block px-3 py-2 rounded-md text-white hover:bg-gray-700">Blog</a>
+                <a href="#pricing" class="block px-3 py-2 rounded-md text-white hover:bg-gray-700">Pricing</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-white hover:bg-gray-700">Contact</a>
+                <a href="#register" class="block px-3 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-white pt-32 pb-20 section">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Digital Solutions For Your Business</h1>
+                    <p class="text-xl mb-8 text-gray-300">Technical Madhesh provides cutting-edge web design, software development, and IoT solutions tailored to your needs.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">Get Started</a>
+                        <a href="#services" class="bg-transparent border border-white text-white hover:bg-white hover:text-gray-800 px-6 py-3 rounded-md font-medium transition">Our Services</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/18aca13c-df80-470c-964c-5853ec989c7f.png" 
+                         alt="Team of developers working on computers in a modern office" 
+                         class="rounded-lg shadow-xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white section">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">About <span class="text-blue-500">Technical Madhesh</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We are a team of passionate developers and designers from Janakpur, Nepal dedicated to delivering high-quality digital solutions.</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <img src="img/istockphoto-1091348950-612x612.jpg" 
+                             alt="Bibek Kumar Singh, Founder of Technical Madhesh" 
+                             class="rounded-lg w-full">
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4">Hi, I'm Bibek Kumar Singh</h3>
+                    <p class="text-gray-600 mb-6">Founder & Lead Developer of Technical Madhesh Design & Software Company.</p>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg mb-6">
+                        <p class="mb-4">With over 1 years of experience in web development, software engineering, and Arduino robotics, I founded Technical Madhesh to bring world-class technology solutions to our region in Madhesh Pradesh, Nepal.</p>
+                        <p>Our mission is to help businesses of all sizes establish a strong digital presence with custom solutions that drive growth and efficiency.</p>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-1">Web Development</h4>
+                            <p class="text-sm text-gray-600">Custom websites and web applications</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-1">Mobile Apps</h4>
+                            <p class="text-sm text-gray-600">iOS & Android applications</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-1">UI/UX Design</h4>
+                            <p class="text-sm text-gray-600">Beautiful, user-friendly interfaces</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-1">IoT Solutions</h4>
+                            <p class="text-sm text-gray-600">Arduino-based automation</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50 section">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Our <span class="text-blue-500">Services</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We offer comprehensive digital solutions to help your business thrive in the online world.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Web Development -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="service-icon bg-blue-100 text-blue-500">
+                        <i class="fas fa-code text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Web Development</h3>
+                    <p class="text-gray-600 mb-4">Custom websites and web applications built with modern technologies like React, Node.js, and more.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Responsive Design
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> CMS Integration
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> E-commerce Solutions
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-500 font-medium hover:text-blue-600 flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Mobile App Development -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="service-icon bg-green-100 text-green-500">
+                        <i class="fas fa-mobile-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Mobile App Development</h3>
+                    <p class="text-gray-600 mb-4">Native and cross-platform mobile apps for iOS and Android that engage users and drive business growth.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i> iOS Development
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i> Android Development
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i> React Native Apps
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-green-500 font-medium hover:text-green-600 flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- UI/UX Design -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="service-icon bg-purple-100 text-purple-500">
+                        <i class="fas fa-paint-brush text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">UI/UX Design</h3>
+                    <p class="text-gray-600 mb-4">Beautiful, intuitive interfaces designed to enhance user experience and drive conversions.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-purple-500 mr-2"></i> User Research
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-purple-500 mr-2"></i> Wireframing
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-purple-500 mr-2"></i> Prototyping
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-purple-500 font-medium hover:text-purple-600 flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Software Development -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="service-icon bg-indigo-100 text-indigo-500">
+                        <i class="fas fa-laptop-code text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Software Development</h3>
+                    <p class="text-gray-600 mb-4">Custom software solutions designed to streamline your business operations and improve efficiency.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-indigo-500 mr-2"></i> Desktop Applications
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-indigo-500 mr-2"></i> Business Software
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-indigo-500 mr-2"></i> Database Systems
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-indigo-500 font-medium hover:text-indigo-600 flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- IoT & Robotics -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="service-icon bg-red-100 text-red-500">
+                        <i class="fas fa-robot text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">IoT & Robotics</h3>
+                    <p class="text-gray-600 mb-4">Innovative Arduino-based solutions for automation, monitoring, and smart systems.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-red-500 mr-2"></i> Smart Devices
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-red-500 mr-2"></i> Home Automation
+                        </li>
+                        <liclass="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-red-500 mr-2"></i> Robotics Projects
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-red-500 font-medium hover:text-red-600 flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Digital Marketing -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="service-icon bg-yellow-100 text-yellow-500">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Digital Marketing</h3>
+                    <p class="text-gray-600 mb-4">Comprehensive strategies to increase your online visibility and drive targeted traffic.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i> SEO
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i> Social Media
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i> Content Marketing
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-yellow-500 font-medium hover:text-yellow-600 flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white section">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Our <span class="text-blue-500">Portfolio</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Check out some of our recent projects and see what we can do for you.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="portfolio-item rounded-lg overflow-hidden">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b94cf702-dac7-4e68-8676-1b7e78a23113.png" 
+                         alt="Corporate website design with modern interface" 
+                         class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay text-white text-center p-6">
+                        <h3 class="text-xl font-bold mb-2">Corporate Website</h3>
+                        <p class="mb-4">A modern website for a financial services company</p>
+                        <a href="#" class="text-blue-500 bg-white px-4 py-2 rounded-md hover:bg-gray-100">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item rounded-lg overflow-hidden">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e62564d1-e954-4855-a693-554ba0716366.png" 
+                         alt="Fitness mobile app interface design" 
+                         class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay text-white text-center p-6">
+                        <h3 class="text-xl font-bold mb-2">Fitness App</h3>
+                        <p class="mb-4">Mobile application for health tracking</p>
+                        <a href="#" class="text-blue-500 bg-white px-4 py-2 rounded-md hover:bg-gray-100">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-item rounded-lg overflow-hidden">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/72c3cd54-61b1-4d7e-870b-5a19b3ddff0d.png" 
+                         alt="Brand identity package for a startup" 
+                         class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay text-white text-center p-6">
+                        <h3 class="text-xl font-bold mb-2">Brand Identity</h3>
+                        <p class="mb-4">Complete branding for a new company</p>
+                        <a href="#" class="text-blue-500 bg-white px-4 py-2 rounded-md hover:bg-gray-100">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="portfolio-item rounded-lg overflow-hidden">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/268df528-fd6f-4566-af01-2a4564fa72c2.png" 
+                         alt="E-commerce website with product listings" 
+                         class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay text-white text-center p-6">
+                        <h3 class="text-xl font-bold mb-2">E-Commerce Store</h3>
+                        <p class="mb-4">Online shopping platform</p>
+                        <a href="#" class="text-blue-500 bg-white px-4 py-2 rounded-md hover:bg-gray-100">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="portfolio-item rounded-lg overflow-hidden">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/431cae05-451d-446c-8778-fdfbcc881898.png" 
+                         alt="Food delivery mobile application" 
+                         class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay text-white text-center p-6">
+                        <h3 class="text-xl font-bold mb-2">Food Delivery App</h3>
+                        <p class="mb-4">Mobile ordering platform</p>
+                        <a href="#" class="text-blue-500 bg-white px-4 py-2 rounded-md hover:bg-gray-100">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="portfolio-item rounded-lg overflow-hidden">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4b2752b9-af85-4d70-a4a5-2de9fff9c813.png" 
+                         alt="Business analytics dashboard interface" 
+                         class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay text-white text-center p-6">
+                        <h3 class="text-xl font-bold mb-2">Analytics Dashboard</h3>
+                        <p class="mb-4">Data visualization platform</p>
+                        <a href="#" class="text-blue-500 bg-white px-4 py-2 rounded-md hover:bg-gray-100">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#contact" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+                    Start Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-gray-50 section">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Latest <span class="text-blue-500">Blog Posts</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Read our latest articles about web development, design, and technology trends.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <article class="bg-white rounded-lg overflow-hidden blog-card">
+                    <div class="overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1ae9dbe2-d106-4db3-9c37-d347c034d931.png" 
+                             alt="React.js code on a computer screen" 
+                             class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-3">
+                            <span><i class="far fa-calendar-alt mr-1"></i> June 15, 2023</span>
+                            <span class="mx-3">|</span>
+                            <span><i class="far fa-clock mr-1"></i> 5 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Getting Started with React.js</h3>
+                        <p class="text-gray-600 mb-4">Learn the fundamentals of React.js and how to build your first interactive web application.</p>
+                        <a href="#" class="text-blue-500 font-medium hover:text-blue-600 flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Blog Post 2 -->
+                <article class="bg-white rounded-lg overflow-hidden blog-card">
+                    <div class="overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d9272839-bbd0-4379-a5ac-1e03b2b18b8d.png" 
+                             alt="Arduino board with connected sensors" 
+                             class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-3">
+                            <span><i class="far fa-calendar-alt mr-1"></i> May 28, 2023</span>
+                            <span class="mx-3">|</span>
+                            <span><i class="far fa-clock mr-1"></i> 7 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Building Your First Arduino Robot</h3>
+                        <p class="text-gray-600 mb-4">Step-by-step guide to assembling and programming a simple robotic vehicle.</p>
+                        <a href="#" class="text-blue-500 font-medium hover:text-blue-600 flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Blog Post 3 -->
+                <article class="bg-white rounded-lg overflow-hidden blog-card">
+                    <div class="overflow-hidden">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/df552c1c-a776-4f95-96ee-aa51f69a31fa.png" 
+                             alt="UI design mockups on a designer's desk" 
+                             class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-3">
+                            <span><i class="far fa-calendar-alt mr-1"></i> May 10, 2023</span>
+                            <span class="mx-3">|</span>
+                            <span><i class="far fa-clock mr-1"></i> 4 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">UI/UX Design Principles</h3>
+                        <p class="text-gray-600 mb-4">Essential design concepts that every developer should know to create better interfaces.</p>
+                        <a href="#" class="text-blue-500 font-medium hover:text-blue-600 flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://technicalmadheshedu.blogspot.com/?zx=20fe091708474661" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+                    View All Posts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-white section">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Our <span class="text-blue-500">Pricing</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Simple, transparent pricing for all business sizes.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Basic Plan -->
+                <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
+                    <h3 class="text-xl font-bold mb-2">Basic</h3>
+                    <p class="text-gray-600 mb-6">Perfect for small projects and startups</p>
+                    <div class="text-4xl font-bold mb-6">$199<span class="text-lg text-gray-500">/project</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Simple Website Design
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Up to 5 Pages
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Basic SEO
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-times-circle mr-2"></i> E-commerce Functionality
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-times-circle mr-2"></i> Advanced Analytics
+                        </li>
+                    </ul>
+                    <a href="#contact" class="block w-full bg-gray-100 hover:bg-gray-200 text-gray-800 px-6 py-3 rounded-md font-medium text-center transition">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Professional Plan -->
+                <div class="bg-white rounded-xl shadow-xl border-2 border-blue-500 p-6 pricing-card popular">
+                    <div class="bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-4">POPULAR</div>
+                    <h3 class="text-xl font-bold mb-2">Professional</h3>
+                    <p class="text-gray-600 mb-6">Ideal for growing businesses</p>
+                    <div class="text-4xl font-bold mb-6">$499<span class="text-lg text-gray-500">/project</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Custom Website Design
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Up to 15 Pages
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Advanced SEO
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Basic E-commerce
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-times-circle mr-2"></i> Advanced Analytics
+                        </li>
+                    </ul>
+                    <a href="#contact" class="block w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium text-center transition">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Enterprise Plan -->
+                <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
+                    <h3 class="text-xl font-bold mb-2">Enterprise</h3>
+                    <p class="text-gray-600 mb-6">For large organizations with complex needs</p>
+                    <div class="text-4xl font-bold mb-6">$999<span class="text-lg text-gray-500">/project</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Premium Custom Design
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Unlimited Pages
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Complete SEO Package
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Advanced E-commerce
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Advanced Analytics
+                        </li>
+                    </ul>
+                    <a href="#contact" class="block w-full bg-gray-100 hover:bg-gray-200 text-gray-800 px-6 py-3 rounded-md font-medium text-center transition">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-gray-50 rounded-xl p-8 text-center">
+                <h3 class="text-2xl font-bold mb-4">Need a Custom Solution?</h3>
+                <p class="text-gray-600 mb-6 max-w-2xl mx-auto">We understand that every business has unique needs. Contact us to discuss a custom package tailored specifically for your requirements.</p>
+                <a href="#contact" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+                    Request Custom Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50 section">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Get In <span class="text-blue-500">Touch</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Have a project in mind or want to learn more about our services? We'd love to hear from you.</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <form class="bg-white p-8 rounded-xl register-form">
+                        <h3 class="text-xl font-bold mb-6">Send Us a Message</h3>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-white p-8 rounded-xl h-full">
+                        <h3 class="text-xl font-bold mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-blue-500"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Address</h4>
+                                    <p class="text-gray-600">Janakpur, Madhesh Pradesh, Nepal</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-blue-500"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Email</h4>
+                                    <p class="text-gray-600">info@technicalmadhesh.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-phone-alt text-blue-500"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Phone</h4>
+                                    <p class="text-gray-600">+977 98XXXXXXXX</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-clock text-blue-500"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Working Hours</h4>
+                                    <p class="text-gray-600">Sunday - Friday: 9AM - 5PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold text-gray-800 mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-gray-100 hover:bg-gray-200 w-10 h-10 rounded-full flex items-center justify-center">
+                                    <i class="fab fa-facebook-f text-gray-700"></i>
+                                </a>
+                                <a href="#" class="bg-gray-100 hover:bg-gray-200 w-10 h-10 rounded-full flex items-center justify-center">
+                                    <i class="fab fa-twitter text-gray-700"></i>
+                                </a>
+                                <a href="#" class="bg-gray-100 hover:bg-gray-200 w-10 h-10 rounded-full flex items-center justify-center">
+                                    <i class="fab fa-instagram text-gray-700"></i>
+                                </a>
+                                <a href="#" class="bg-gray-100 hover:bg-gray-200 w-10 h-10 rounded-full flex items-center justify-center">
+                                    <i class="fab fa-linkedin-in text-gray-700"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 contact-map rounded-lg overflow-hidden">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113832.13472259503!2d85.9381018!3d26.7308905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec6c42b2d99a81%3A0xcb6336ab20e7a565!2sJanakpur%2C%20Nepal!5e0!3m2!1sen!2snp!4v1689581098501!5m2!1sen!2snp" 
+                                    width="100%" 
+                                    height="300" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Section -->
+    <section id="register" class="py-20 bg-white section">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-4">Create an <span class="text-blue-500">Account</span></h2>
+                    <p class="text-gray-600">Register to access our client portal and manage your projects.</p>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2 bg-blue-500 text-white p-8">
+                            <h3 class="text-2xl font-bold mb-4">Client Benefits</h3>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle mr-3 mt-1"></i>
+                                    <span>Track project progress in real-time</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle mr-3 mt-1"></i>
+                                    <span>Direct communication with your team</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle mr-3 mt-1"></i>
+                                    <span>Access to project files and documents</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle mr-3 mt-1"></i>
+                                    <span>Priority support</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-8">
+                                <h4 class="font-bold mb-2">Already have an account?</h4>
+                                <a href="#" class="inline-block bg-white text-blue-500 hover:bg-gray-100 px-6 py-2 rounded-md font-medium transition">
+                                    Sign In
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="md:w-1/2 p-8">
+                            <form class="register-form">
+                                <div class="mb-6">
+                                    <label for="reg-name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                                    <input type="text" id="reg-name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div class="mb-6">
+                                    <label for="reg-email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                                    <input type="email" id="reg-email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div class="mb-6">
+                                    <label for="reg-password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                                    <input type="password" id="reg-password" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div class="mb-6">
+                                    <label for="reg-confirm" class="block text-sm font-medium text-gray-700 mb-1">Confirm Password</label>
+                                    <input type="password" id="reg-confirm" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                
+                                <div class="mb-6">
+                                    <label class="flex items-center">
+                                        <input type="checkbox" class="rounded border-gray-300 text-blue-500 focus:ring-blue-500">
+                                        <span class="ml-2 text-sm text-gray-600">I agree to the <a href="#" class="text-blue-500 hover:underline">Terms of Service</a> and <a href="#" class="text-blue-500 hover:underline">Privacy Policy</a></span>
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+                                    Create Account
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Technical Madhesh</h3>
+                    <p class="text-gray-400 mb-4">Design & Software Company providing cutting-edge digital solutions for businesses in Nepal and beyond.</p>
+                    <p class="text-gray-400 mb-4">Social Media</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/share/193dDbsttW/" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@technicalmadhesh?_t=ZS-8xjEFXCQNL5&_r=1" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@Technicalmadhesh2" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                            <a href="https://www.instagram.com/technicalmadhesh?igsh=dm52bGF6MGUxN3hj" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/bibek-kumar-singh-aa803a2a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white">Portfolio</a></li>
+                        <li><a href="#blog" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Basic Computer</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Microsoft Work</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Web Development</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mobile App Development</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Graphics Design</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">UI/UX Design</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Software Development</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">IoT & Robotics</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mr-3 mt-1"></i>
+                            <span>Janakpur, Madhesh Pradesh, Nepal</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mr-3 mt-1"></i>
+                            <span>info@technicalmadhesh.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mr-3 mt-1"></i>
+                            <span>+977 - 98431154588<span>, 9819612759</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            <span> +977 - 9819612759</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-clock mr-3 mt-1"></i>
+                            <span>Sunday - Friday: 9AM - 5PM
+                            <p>Saturday: 8AM - 12PM</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Technical Madhesh Design & Software Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Set active nav link based on scroll position
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        window.addEventListener('scroll', function() {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
